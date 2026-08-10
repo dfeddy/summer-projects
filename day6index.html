@@ -1,0 +1,23 @@
+ <!-- For a standard script -->
+<script src="https://unpkg.com/react@18.3.1/umd/react.production.min.js"></script>
+
+<!-- For modern JavaScript Modules (ESM) -->
+<script type="importmap">
+  {
+    "imports": {
+      "preact": "https://unpkg.com/preact@10.25.4/dist/preact.module.js"
+    }
+  }
+</script>
+
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+
+<script type="text/jsx">
+    const app = document.getElementById('app');
+   
+    function header() {}
+   
+    const root = ReactDOM.createRoot(app);
+    root.render(<h1>Develop. Preview. Ship.</h1>);
+  </script>
