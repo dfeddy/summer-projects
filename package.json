@@ -1,4 +1,11 @@
 {
+  "name": "summer-projects",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix guestbook run dev",
+    "start": "npm --prefix guestbook run start",
+    "build": "npm --prefix guestbook run build"
+  },
   "dependencies": {
     "@supabase/supabase-js": "^2.112.2"
   }

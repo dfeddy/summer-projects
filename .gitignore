@@ -1,0 +1,12 @@
+# guestbook is its own git repo (github.com/dfeddy/guestbook)
+guestbook/
+
+# dependencies
+node_modules/
+
+# macOS
+.DS_Store
+
+# iCloud sync conflict artifacts
+* 2
+* 2.*
